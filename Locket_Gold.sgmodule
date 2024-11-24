@@ -1,5 +1,5 @@
 #!name=Locket Gold
-#!desc=Enable Premium Features for Locket Widget
+#!desc=Premium
 
 [MITM]
 hostname = api.revenuecat.com
