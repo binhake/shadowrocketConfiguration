@@ -9,7 +9,6 @@ hijack-dns = *:53
 
 [Host]
 doh.binhake.dev = server:1.1.1.1
-firebaseremoteconfig.googleapis.com = server:https://doh.binhake.dev/dns-query/tok_460fa74fb6a9fe8ad550c3214d6a9da0
 
 [Script]
 revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/binhake/shadowrocketConfiguration/refs/heads/main/locket_module.js, requires-body=true, max-size=-1, timeout=60
