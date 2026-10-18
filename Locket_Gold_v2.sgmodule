@@ -2,10 +2,8 @@
 #!desc=Premium
 
 [General]
-dns-server = https://doh.binhake.dev/dns-query/tok_460fa74fb6a9fe8ad550c3214d6a9da0
-doh-server = https://doh.binhake.dev/dns-query/tok_460fa74fb6a9fe8ad550c3214d6a9da0
-fallback-dns-server = 
-hijack-dns = *:53
+dns-server = system
+ipv6 = false
 
 [Host]
 doh.binhake.dev = server:1.1.1.1
